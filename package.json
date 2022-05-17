@@ -1,0 +1,28 @@
+{
+  "name": "@eth-dapp/monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "art-engine:build": "yarn workspace @eth-dapp/art-engine build",
+    "contract:compile": "yarn workspace @eth-dapp/nft-contract contract:compile",
+    "contract:size": "yarn workspace @eth-dapp/nft-contract contract:size",
+    "contract:test": "yarn workspace @eth-dapp/nft-contract contract:test",
+    "contract:migrate": "yarn workspace @eth-dapp/nft-contract migrate:mainnet",
+    "contract:verify": "yarn workspace @eth-dapp/nft-contract verify:mainnet",
+    "nuxt:develop": "yarn workspace @eth-dapp/nft-minting-dapp dev",
+    "nuxt:build": "yarn workspace @eth-dapp/nft-minting-dapp build",
+    "nuxt:generate": "yarn workspace @eth-dapp/nft-minting-dapp generate"
+  },
+  "author": "Jofil Inoc Baring",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "engines": {
+    "node": "^16.15.0",
+    "yarn": "~1.22.19"
+  }
+}
