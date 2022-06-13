@@ -1,9 +1,9 @@
 [submodule "packages/art-engine"]
 	path = packages/art-engine
-	url = https://github.com/baringji/art-engine
+	url = git://git@github.com:baringji/art-engine.git
 [submodule "packages/nft-contract"]
 	path = packages/nft-contract
-	url = https://github.com/baringji/nft-contract
+	url = git://git@github.com:baringji/nft-contract.git
 [submodule "packages/nft-minting-dapp"]
 	path = packages/nft-minting-dapp
-	url = https://github.com/baringji/nft-minting-dapp
+	url = git://git@github.com:baringji/nft-minting-dapp.git
